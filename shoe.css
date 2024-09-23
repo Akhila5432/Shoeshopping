@@ -1,0 +1,129 @@
+*{
+    margin:0%;
+}
+.bg-container{
+    background-color:rgba(6, 79, 89, 0.966);
+    padding:100px;
+    min-height:100vh;
+     display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+.heading{
+    color: white;
+    font-family: "Open Sans";
+    width: 90%;
+    max-width: 900px;
+}
+.paragraph{
+    color: white;
+    font-family: "Open Sans";
+    width: 90%;
+    max-width: 900px;
+    margin-bottom: 40px;;
+}
+.card-container{
+    display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 900px;
+}
+.card{
+    width: 230px;
+  background-color: white;
+  padding: 16px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+.card-background-container{
+    display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.image1{
+    background-image:url("https://th.bing.com/th/id/R.4ea46077414094224474a42b220caab4?rik=HAHpsiQ02A7boQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2fae%2fAn_Adidas_shoe.jpg&ehk=IYgSREE1XHWSAY1kpTm%2fteTImNCzvfGrbX2cDlF1YbY%3d&risl=1&pid=ImgRaw&r=0");
+}
+.image2{
+    background-image:url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+.image3{
+    background-image:url("https://th.bing.com/th/id/OIP.YguOkIP2xIjpoReX_q0R4gHaHa?rs=1&pid=ImgDetMain");
+}
+.image4{
+    background-image:url("https://th.bing.com/th/id/OIP.df1HDK991F8O7RhYAoY62AHaEo?rs=1&pid=ImgDetMain");
+}
+.image5{
+    background-image:url("https://images.stockx.com/images/Nike-Kobe-4-Black-White-Varsity-Red.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=webp&auto=compress&dpr=3&trim=color&updated_at=1618255467&q=41");
+}
+.image6{
+    background-image:url("https://th.bing.com/th/id/R.3f4d367729da599332f0093ea786a206?rik=ZdeM42QhkPe9Lg&riu=http%3a%2f%2fimage.sportsmansguide.com%2fadimgs%2fl%2f1%2f125540_ts.jpg&ehk=XMZP1%2buKXT2muHWpuCSAQR0aCh0x6G6Nuq9v2RXboK4%3d&risl=&pid=ImgRaw&r=0");
+}
+.image7{
+    background-image:url("https://th.bing.com/th/id/R.0b10701ee1f8475dfdf477a3147b3da5?rik=D3fuMqgP045C4A&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fshoe-transparent-background%2fshoe-transparent-background-12.jpg&ehk=bhuA%2bgSy0A1H%2bNj3YxosCgFnbiriDcKU%2buRcQXvIXi4%3d&risl=&pid=ImgRaw&r=0");
+
+}
+.image8{
+    background-image:url("https://th.bing.com/th/id/OIP.XdCPJSZ4Vo3Wy33pr2W_CwAAAA?rs=1&pid=ImgDetMain");
+}
+.trending{
+    background-color:orange;
+    border-radius:16px;
+    font-family: "Open Sans";
+    font-size:16px;
+    color:white;
+    padding-top: 4px;
+  padding-right: 15px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  margin-right: 8px;
+  margin-bottom: 6px;
+    
+}
+.card-heading{
+    font-size:16px;
+    font-weight:bold;
+    font-family: "Open Sans";
+}
+.description{
+    font-family:"open Sans";
+    font-size:18px;
+    color:black;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.footer-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.price{
+    color:black;
+    font-weight:bold;
+    font-family:"open Sans";
+    margin-top:16px;
+    margin-bottom:15px;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #659ebc;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+.icon{
+    color:white;
+    font-size:22px;
+}
